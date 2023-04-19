@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Abuse cases A&E attendance, Simple Circle Chart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="chart"></div>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="javascripts/apexchart.js"></script>
+
+    <label class="col-sm-2 col-form-label">Sort by</label>
+    <select class="form-select" aria-label="Default select example" onchange="sortChanged(this.value)" name="team">
+        <option selected name="school_type" value="Aided">Aided</option>
+        <option value="DSS">DSS</option>
+        <option value="Gov't">Government</option>
+        <option value="CAPUT">CAPUT</option>
+    </select>
+</body>
+
+</html>

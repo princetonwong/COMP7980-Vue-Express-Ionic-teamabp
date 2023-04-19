@@ -1,0 +1,66 @@
+.DS_Store
+node_modules
+/dist
+
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+
+*~
+*.sw[mnpcod]
+.tmp
+*.tmp
+*.tmp.*
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+UserInterfaceState.xcuserstate
+$RECYCLE.BIN/
+
+*.log
+log.txt
+npm-debug.log*
+
+/.idea
+/.ionic
+/.sass-cache
+/.sourcemaps
+/.versions
+/.vscode/*
+!/.vscode/extensions.json
+/coverage
+/dist
+/node_modules
+/platforms
+/plugins
+/www
+Web app concept.docx
+Web app concept.pdf
+express/public/resources/ssp_2021_2022_en.csv
+express/public/resources/ssp_2021_2022_en.json
+express/node_nodules/*
+ssp_2021_2022_en.json
+ssp_2021_2022_en.csv
+DataSpec_Information_of_Secondary_School_Profiles_2021_2022_EN.pdf
+~$b app concept.docx
+Assignment 3 - Group Project.pdf
